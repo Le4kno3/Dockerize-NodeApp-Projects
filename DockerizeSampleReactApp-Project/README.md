@@ -11,4 +11,6 @@
 
 ### Successful Results
 
-visit `http://localhost:4500` and check if the react node application is launched successfully.
+1. visit `http://localhost:4500` and check if the react node application is launched successfully.
+
+2. Because we are using docker-compose to run the docker container, and also mapped our local directories with the docker file system, as a result, when you edit your local source code, it get automatically reflected inside the docker. (Although you need to refresh the browser, it will not automatically refresh)

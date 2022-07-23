@@ -8,6 +8,8 @@ services:
 
     ports:
       - "4500:3000"
+    # the advantage of this mapping is that, when you update source code locally,
+    # your container will get the updates automaitcally.
     volumes:
       - .:/app
       - /app/node_modules
