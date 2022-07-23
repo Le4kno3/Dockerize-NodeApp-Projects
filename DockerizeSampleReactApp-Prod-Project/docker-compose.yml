@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  #any name
+  deployment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    # the first "80" is the things from outside,
+    # the second "80" is the inside docker port.
+    ports:
+      - "80:80"
+    # the advantage of this mapping is that, when you update source code locally,
+    # your container will get the updates automaitcally.

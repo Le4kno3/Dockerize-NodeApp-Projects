@@ -1,4 +1,4 @@
-### Dockerize React Sample "Create React App"
+### Dockerize React Sample "Create React App" for Development Environments
 
 ### To Start the docker container.
 
